@@ -11,7 +11,7 @@ img {
 }
 
 ul {
-    list-style-position: inside;
+    list-style-type: none;
 }
 
 .home {
@@ -20,6 +20,7 @@ ul {
 
 .home-ul {
     font-size: 30px;
+    margin: 50px;
 }
 
 h2 {
@@ -29,4 +30,12 @@ h2 {
 h3 {
     font-size: 20px;
     font-style: italic;
+}
+
+.inline {
+    display: inline;
+}
+
+li {
+    text-align: center;
 }
